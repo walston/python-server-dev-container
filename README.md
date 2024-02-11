@@ -4,9 +4,10 @@ This Python development environment is containerized & configured to run in VS C
 
 ## Setup Instructions
 
-1. Install [Remote Development VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
-2. in Command Pallet (⌘ + ⇧ + P) type/select "Reopen in container"
-3. Develop something!
+1. Install [Docker](https://docs.docker.com/desktop/install/mac-install/)
+2. Install [Remote Development VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+3. in Command Pallet (⌘ + ⇧ + P) type/select "Reopen in container"
+4. Develop something!
 
 ## Tour
 

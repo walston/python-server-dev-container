@@ -15,7 +15,7 @@ This environment is meant as a blueprint; as such I'll detail below the importan
 
 ### `requirements.txt`
 
-Similar to a package.json, this file describes the environment dependencies the repository depends on. There are several python utilities that use this format: `pip` is the package manager that ships with python, `conda` and `venv` both generate virtualized environments using `requirements.txt` as an input.
+Similar to a package.json, this file describes the environment dependencies the repository depends on. There are several python utilities that use this format: `pip` is the package manager that ships with python, `conda` and `venv` both generate virtualized environments using `requirements.txt` as an input. The `pip` way of generating this file is `pip freeze > requirements.txt` while using this file with pip is achieved via `pip install -r requirements.txt`.
 
 #### Details
 
